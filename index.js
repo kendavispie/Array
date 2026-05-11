@@ -11,6 +11,10 @@
  */
 export function getFirst(array) {
   // TODO
+  const array1 = ([1,2,3])
+  console.log(array[0])
+return array[0]
+
 }
 
 /**
@@ -26,6 +30,8 @@ export function getFirst(array) {
  */
 export function getLast(array) {
   // TODO
+  const array2 = ([1,2,3])
+  return array2[2]
 }
 
 /**
@@ -43,6 +49,12 @@ export function getLast(array) {
  */
 export function getFirstLast(array) {
   // TODO
+  const array = ([1,2,3])
+  if (array.length === 1)
+    return []
+  return array
+  
+  
 }
 
 /**
@@ -60,6 +72,9 @@ export function getFirstLast(array) {
  */
 export function sharesFirstLetter(str1, str2) {
   // TODO
+  const array = ([apple, orange])
+  if (array[0] === array[1]) return true
+  else if () return false
 }
 
 /**
@@ -75,6 +90,8 @@ export function sharesFirstLetter(str1, str2) {
  */
 export function quintuple(numbers) {
   // TODO
+  const numbers = [0,5,10]
+  return numbers.map * 5
 }
 
 /**
@@ -96,7 +113,13 @@ export function quintuple(numbers) {
  */
 export function pluralize(words) {
   // TODO
-}
+  return words.map + "s"
+  if (words.endsWith ="s"){
+    return words + "es"
+  }
+
+  }
+
 
 /**
  * @param {boolean[]} attendance - an array representing student attendance
@@ -111,8 +134,11 @@ export function pluralize(words) {
  * @example
  * countAttendance([]); // 0
  */
-export function countAttendance(attendance) {
+export function countAttendance(attendance) { 
   // TODO
+  if (true){ return i++
+
+  }
 }
 
 /**
@@ -129,6 +155,8 @@ export function countAttendance(attendance) {
  */
 export function getLongestWord(sentence) {
   // TODO
+  if (sentence.wordLength ){}
+
 }
 
 /**
